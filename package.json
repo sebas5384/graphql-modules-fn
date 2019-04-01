@@ -1,6 +1,6 @@
 {
   "name": "graphql-modules-fn",
-  "version": "0.1.0-alpha1",
+  "version": "0.1.0-alpha2",
   "private": false,
   "description": "GraphQL modules with a functional influence.",
   "license": "MIT",
@@ -63,5 +63,8 @@
     "prettier-eslint-cli": "^4.7.1",
     "sort-package-json": "^1.19.0",
     "standard-version": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@apollographql/apollo-tools": "^0.3.5"
   }
 }
