@@ -1,5 +1,5 @@
 import { buildServiceDefinition } from '@apollographql/apollo-tools'
-import combineContexts from './lib/combineContexts'
+import combineContexts from './combineContexts'
 
 /**
  * Bundle modules into
