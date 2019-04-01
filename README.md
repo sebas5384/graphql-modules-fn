@@ -1,7 +1,7 @@
 # GraphQL Modules (fn)
 
 [![npm version](https://img.shields.io/npm/v/graphql-modules-fn.svg?style=flat-square)](https://www.npmjs.com/package/graphql-modules-fn)
-[![bundlephobia](https://badgen.net/bundlephobia/minzip/graphql-modules-fn)](https://bundlephobia.com/result?p=graphql-modules-fn)
+[![bundlephobia](https://badgen.net/bundlephobia/minzip/graphql-modules-fn@latest)](https://bundlephobia.com/result?p=graphql-modules-fn)
 [![Downloads/week](https://img.shields.io/npm/dw/graphql-modules-fn.svg)](https://bundlephobia.com/result?p=graphql-modules-fn)
 [![License](https://img.shields.io/npm/l/graphql-modules-fn.svg)](https://github.com/sebas5384/graphql-modules-fn/blob/master/package.json)
 [![build status](https://img.shields.io/travis/sebas5384/graphql-modules-fn/master.svg?style=flat-square)](https://travis-ci.org/sebas5384/graphql-modules-fn)

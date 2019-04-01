@@ -1,6 +1,6 @@
 {
   "name": "graphql-modules-fn",
-  "version": "0.1.0-alpha5",
+  "version": "0.1.0-alpha7",
   "private": false,
   "description": "GraphQL modules with a functional influence.",
   "license": "MIT",
