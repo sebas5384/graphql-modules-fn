@@ -219,6 +219,35 @@ const server = createServer(PORT).then(({ url }) => {
 - Simple blog using Apollo's graphql server.
 - [GraphQL on the browser with `apollo-link-schema`](https://codesandbox.io/embed/y3qzmpo4wj).
 
+## Running GraphQL in the browser
+
+### Base modules
+
+- `10.3kb` | @apollographql/apollo-tools
+- `40.9kb` | graphql
+- `3.7kb` | apollo-link-schema
+- `984b` | graphql-tag
+- `2.5kb` | react-apollo-hooks
+- `16kb` | apollo-client
+- `9.7kb` | apollo-cache-inmemory
+
+**Bundle size:** `~84kb`.
+
+### GraphQL Modules (fn)
+
+- `1.1kb` | graphql-modules-fn
+
+**Bundle size:** `~85kb`.
+
+<details>
+  <summary>Comparing using @graphql-modules/core</summary>
+
+- `55.2kb` | @graphql-modules/core
+
+**Bundle size:** `~139kb`. Incrementing **~40%** of your bundle size.
+
+</details>
+
 ## TODO:
 
 - [ ] Add usage of contexts.
