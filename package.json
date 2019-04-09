@@ -3,33 +3,34 @@
   "version": "0.1.0-alpha8",
   "private": false,
   "description": "GraphQL modules with a functional influence.",
-  "license": "MIT",
-  "author": "Sebastian Ferrari <sebas5384@gmail.com>",
+  "keywords": [
+    "apollo",
+    "graphql",
+    "graphql-domain",
+    "graphql-modules",
+    "schema"
+  ],
+  "homepage": "https://github.com/sebas5384/graphql-modules-fn#readme",
+  "bugs": {
+    "url": "https://github.com/sebas5384/graphql-modules-fn/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sebas5384/graphql-modules-fn.git"
   },
-  "bugs": {
-    "url": "https://github.com/sebas5384/graphql-modules-fn/issues"
-  },
-  "homepage": "https://github.com/sebas5384/graphql-modules-fn#readme",
-  "keywords": [
-    "graphql",
-    "apollo",
-    "schema",
-    "graphql-modules",
-    "graphql-domain"
-  ],
-  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "Sebastian Ferrari <sebas5384@gmail.com>",
   "files": [
-    "/lib"
+    "/dist"
   ],
+  "main": "dist/graphql-modules.cjs.js",
+  "module": "dist/graphql-modules.esm.js",
   "scripts": {
-    "compile": "rm -rf ./lib && babel src -d lib --ignore src/**/*.test.js",
+    "build": "rollup -c",
     "lint": "eslint src",
     "precommit": "lint-staged",
+    "prepare": "yarn build",
     "prepush": "yarn qa",
-    "prepublish": "yarn qa && yarn compile",
     "qa": "yarn test && yarn lint",
     "release": "standard-version",
     "test": "jest src"
@@ -63,6 +64,8 @@
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
     "@babel/preset-env": "^7.3.1",
+    "babel-jest": "24.5.0",
+    "codecov": "^3.3.0",
     "eslint": "^5.14.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.16.0",
@@ -74,6 +77,8 @@
     "jest": "^24.1.0",
     "lint-staged": "^8.1.4",
     "prettier-eslint-cli": "^4.7.1",
+    "rollup": "1.7.0",
+    "rollup-plugin-babel": "4.3.2",
     "sort-package-json": "^1.19.0",
     "standard-version": "^5.0.0"
   },

@@ -1,6 +1,9 @@
-/lib
-node_modules
 .env
 tmp
-coverage
 .DS_Store
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+package-lock.json
+coverage
