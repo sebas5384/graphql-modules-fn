@@ -216,7 +216,7 @@ const server = createServer(PORT).then(({ url }) => {
 
 ### More examples:
 
-- Simple blog using Apollo's graphql server.
+- [Simple blog using Apollo's graphql server](https://github.com/sebas5384/graphql-modules-fn-example)
 - [GraphQL on the browser with `apollo-link-schema`](https://codesandbox.io/embed/y3qzmpo4wj).
 
 ## Running GraphQL in the browser
