@@ -221,9 +221,10 @@ const server = createServer(PORT).then(({ url }) => {
 
 ## Running GraphQL in the browser
 
+All sizes are in `KB`, `MINIFIED` and `GZIPPED`.
+
 ### Base modules
 
-- `10.3kb` | @apollographql/apollo-tools
 - `40.9kb` | graphql
 - `3.7kb` | apollo-link-schema
 - `984b` | graphql-tag
@@ -231,20 +232,21 @@ const server = createServer(PORT).then(({ url }) => {
 - `16kb` | apollo-client
 - `9.7kb` | apollo-cache-inmemory
 
-**Bundle size:** `~84kb`.
+**Bundle size:** `~74kb`.
 
 ### GraphQL Modules (fn)
 
 - `1.1kb` | graphql-modules-fn
+- `10.3kb` | @apollographql/apollo-tools
 
-**Bundle size:** `~85kb`.
+**Bundle size:** `~85kb`. Incrementing **~15%** of your bundle size.
 
 <details>
   <summary>Comparing using @graphql-modules/core</summary>
 
 - `55.2kb` | @graphql-modules/core
 
-**Bundle size:** `~139kb`. Incrementing **~40%** of your bundle size.
+**Bundle size:** `~129kb`. Incrementing **~74%** of your bundle size.
 
 </details>
 
