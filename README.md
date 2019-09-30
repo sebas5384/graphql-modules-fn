@@ -254,5 +254,5 @@ All sizes are in `KB`, `MINIFIED` and `GZIPPED`.
 
 - [ ] Add usage of contexts.
 - [ ] Start a documentation site.
-- [ ] Subscriptions support (waiting for PR [#1047](https://github.com/apollographql/apollo-tooling/pull/1047) to be merged).
+- [x] Subscriptions support (waiting for PR [#1047](https://github.com/apollographql/apollo-tooling/pull/1047) to be merged).
 - [ ] Tests with 100% of converage.
